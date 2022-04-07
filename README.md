@@ -3,7 +3,7 @@
 - [Installation](#installation-en-local)
 - [Exercice 1](#exercice-1)
 - [Exercice 2](#exercice-2)
-- [Exercice 3](#exercice-3)
+- [Exercice 3 (BONUS)](#exercice-3-bonus)
 
 ## Installation en local
 
@@ -60,7 +60,9 @@ Votre page devrait ressembler à peu près à ça :
 
 ![Screenshot Exercice 2](https://raw.githubusercontent.com/nexteneo/recrutement-test-front/main/instructions/evse-2.png)
 
-## Exercice 3
+## Exercice 3 (BONUS)
+
+Cet exercice est facultatif.
 
 Ajoutez une colonne "Durée" à la page qui liste les sessions de charge. Cette colonnbe devra afficher dans un format facilement lisible la durée d'une session de charge.
 
