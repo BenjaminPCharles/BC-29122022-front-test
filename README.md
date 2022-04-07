@@ -32,7 +32,7 @@ Vous pouvez ensuite vous rendre sur http://localhost:3000. Vous devriez voir cet
 
 ## Règles
 
-- Vous devez réaliser ce projet quand vous voulez, en prenant le temps que vous voulez.
+- Réalisez ce projet quand vous voulez, il n'y a pas de temps imparti.
 - Vous avez absolument le droit d'utiliser tous les outils que vous voulez (Google, StackOverflow, MDN...)
 - Lorsque vous avez terminé, vous pouvez uploader votre code sur votre github personnel et m'envoyer le lien. Nous nous panifierons ensuite une petite session de debrief.
 
