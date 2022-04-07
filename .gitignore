@@ -35,3 +35,6 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
+
+# Solution du test
+*.solution.tsx

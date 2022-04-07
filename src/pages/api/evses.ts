@@ -26,7 +26,7 @@ export default function handler(
       },
       {
         codeName: 'NX-YN96M',
-        status: 'Disponible',
+        status: 'Hors-service',
         lastSession: new Date('2021-04-06T12:41:48Z'),
       },
       {
