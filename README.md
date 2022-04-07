@@ -36,6 +36,8 @@ Vous pouvez ensuite vous rendre sur http://localhost:3000. Vous devriez voir cet
 - Vous pouvez utiliser tous les outils que vous voulez (Google, StackOverflow, MDN...)
 - Une fois terminé, vous pouvez uploader votre code sur votre github personnel et m'envoyer le lien par email. Nous nous panifierons ensuite une petite session de debrief.
 
+Pour information, le projet a été réalisé avec la librairie de composants MUI (Material UI).
+
 
 **Bon courage ! 🙂 Si vous êtes vraiment coincé, par exemple si vous n'arrivez pas à installer le projet, n'hésitez surtout pas à me contacter par mail.**
  
