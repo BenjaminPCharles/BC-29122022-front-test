@@ -1,4 +1,4 @@
-# Nexteneo - Test technique FRONT (React.js / TypeScript)
+# Nexteneo - Test technique FRONT (React.js)
 
 - [Installation](#installation-en-local)
 - [Exercice 1](#exercice-1)
@@ -7,20 +7,20 @@
 
 ## Installation en local
 
-### Copier le projet
+### 1. Copiez le projet
 
 ```sh
 git clone git@github.com:nexteneo/recrutement-test-front.git # Téléchargement du code
 cd recrutement-test-front # Entrer dans le projet
 ```
 
-### Installer les dépendances
+### 2. Installez les dépendances
 
 ```
 npm install
 ```
 
-### Lancer le projet
+### 3. Lancez le projet
 
 ```
 npm run dev
@@ -32,19 +32,19 @@ Vous pouvez ensuite vous rendre sur http://localhost:3000. Vous devriez voir cet
 
 ## Règles
 
-- Réalisez ce projet quand vous voulez, il n'y a pas de temps imparti.
-- Vous avez absolument le droit d'utiliser tous les outils que vous voulez (Google, StackOverflow, MDN...)
-- Lorsque vous avez terminé, vous pouvez uploader votre code sur votre github personnel et m'envoyer le lien. Nous nous panifierons ensuite une petite session de debrief.
+- Réalisez ce projet quand vous voulez : il n'y a pas de temps imparti.
+- Vous pouvez utiliser tous les outils que vous voulez (Google, StackOverflow, MDN...)
+- Une fois terminé, vous pouvez uploader votre code sur votre github personnel et m'envoyer le lien par email. Nous nous panifierons ensuite une petite session de debrief.
 
 
-**Bon courage ! 🙂 Si vous êtes vraiment coincés, par exemple si vous n'arrivez pas à installer le projet, n'hésitez surtout pas à me contacter.**
+**Bon courage ! 🙂 Si vous êtes vraiment coincé, par exemple si vous n'arrivez pas à installer le projet, n'hésitez surtout pas à me contacter par mail.**
  
 
 ## Exercice 1
 
-Si vous cliquez sur le lien "Sessions de charge" du menu de gauche, vous trouverez une page vide.
+Cliquez sur le lien "Sessions de charge" du menu de gauche : vous trouverez une page vide.
 
-En vous inspirant du code de la page qui liste les points de charge, créez la page qui va lister les différentes sessions de charge. Voici à quoi elle devrait ressembler :
+En vous inspirant du code de la page qui affiche les points de charge, créez la page qui listera les différentes sessions de charge. Voici à quoi elle devrait ressembler :
 
 ![Screenshot Exercice 1](https://raw.githubusercontent.com/nexteneo/recrutement-test-front/main/instructions/sessions-1.png)
 
@@ -60,7 +60,7 @@ Votre page devrait ressembler à peu près à ça :
 
 ## Exercice 3
 
-Ajouter une colonne "Durée" à la page qui liste les sessions de charge, qui doit afficher dans un format facilement lisible la durée d'une session de charge.
+Ajoutez une colonne "Durée" à la page qui liste les sessions de charge. Cette colonnbe devra afficher dans un format facilement lisible la durée d'une session de charge.
 
 Par exemple :
 
