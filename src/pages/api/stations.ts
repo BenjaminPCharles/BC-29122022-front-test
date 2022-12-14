@@ -1,7 +1,7 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
 
-export type ApiEvses = {
-  evses: {
+export type ApiStations = {
+  stations: {
     codeName: string
     status: 'Disponible' | 'En charge' | 'Hors-service'
     lastSession: Date | null
@@ -10,10 +10,10 @@ export type ApiEvses = {
 
 export default function handler(
   req: NextApiRequest,
-  res: NextApiResponse<ApiEvses>
+  res: NextApiResponse<ApiStations>
 ) {
   res.status(200).json({
-    evses: [
+    stations: [
       {
         codeName: 'NX-NKTF4',
         status: 'Disponible',

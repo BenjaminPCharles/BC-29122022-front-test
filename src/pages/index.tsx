@@ -10,10 +10,10 @@ import {
 import type { NextPage } from 'next'
 import useSWR from 'swr'
 import { Layout } from '../components/layout/Layout'
-import { ApiEvses } from './api/evses'
+import { ApiStations } from './api/stations'
 
-const EvsePage: NextPage = () => {
-  const { data, error } = useSWR<ApiEvses>('/api/evses')
+const StationsPage: NextPage = () => {
+  const { data, error } = useSWR<ApiStations>('/api/stations')
   return (
     <Layout>
       <Paper sx={{ mt: 3 }}>
@@ -27,13 +27,13 @@ const EvsePage: NextPage = () => {
           </TableHead>
           <TableBody>
             {data ? (
-              data.evses.map((evse) => (
-                <TableRow key={evse.codeName}>
-                  <TableCell>{evse.codeName}</TableCell>
-                  <TableCell>{evse.status}</TableCell>
+              data.stations.map((station) => (
+                <TableRow key={station.codeName}>
+                  <TableCell>{station.codeName}</TableCell>
+                  <TableCell>{station.status}</TableCell>
                   <TableCell>
-                    {evse.lastSession
-                      ? new Date(evse.lastSession).toLocaleString()
+                    {station.lastSession
+                      ? new Date(station.lastSession).toLocaleString()
                       : 'N/A'}
                   </TableCell>
                 </TableRow>
@@ -56,4 +56,4 @@ const EvsePage: NextPage = () => {
   )
 }
 
-export default EvsePage
+export default StationsPage

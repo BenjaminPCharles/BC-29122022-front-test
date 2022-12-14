@@ -1,4 +1,4 @@
-import { Bolt, Help, History } from '@mui/icons-material'
+import { EvStation, Help, History } from '@mui/icons-material'
 import { Divider, Hidden, Typography } from '@mui/material'
 import List from '@mui/material/List'
 import ListItem from '@mui/material/ListItem'
@@ -16,10 +16,10 @@ export const LeftMenu: React.FC = () => {
       <Link href="/" passHref>
         <ListItem component="a" button selected={router.pathname === '/'}>
           <ListItemIcon>
-            <Bolt color="primary" />
+            <EvStation color="primary" />
           </ListItemIcon>
           <Hidden lgDown>
-            <ListItemText primary="Points de charge" />
+            <ListItemText primary="Stations" />
           </Hidden>
         </ListItem>
       </Link>
