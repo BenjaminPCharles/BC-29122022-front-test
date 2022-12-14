@@ -26,7 +26,7 @@ npm install
 npm run dev
 ```
 
-Vous pouvez ensuite vous rendre sur http://localhost:3000. Vous devriez voir cette page, qui liste les différents points de charge :
+Vous pouvez ensuite vous rendre sur http://localhost:3000. Vous devriez voir cette page, qui liste les différentes stations :
 
 ![Screenshot Projet](https://raw.githubusercontent.com/nexteneo/recrutement-test-front/main/instructions/evse-1.png)
 
@@ -36,11 +36,9 @@ Vous pouvez ensuite vous rendre sur http://localhost:3000. Vous devriez voir cet
 - Vous pouvez utiliser tous les outils que vous voulez (Google, StackOverflow, MDN...)
 - Une fois terminé, vous pouvez uploader votre code sur votre github personnel et m'envoyer le lien par email. Nous nous panifierons ensuite une petite session de debrief.
 
-Pour information, le projet a été réalisé avec la librairie de composants MUI (Material UI).
-
+Pour information, le projet a été réalisé avec la librairie de composants [MUI (Material UI)](https://mui.com/material-ui/getting-started/overview/).
 
 **Bon courage ! 🙂 Si vous êtes vraiment coincé, par exemple si vous n'arrivez pas à installer le projet, n'hésitez surtout pas à me contacter par mail.**
- 
 
 ## Exercice 1
 
@@ -69,4 +67,3 @@ Ajoutez une colonne "Durée" à la page qui liste les sessions de charge. Cette 
 Par exemple :
 
 ![Screenshot Exercice 3](https://raw.githubusercontent.com/nexteneo/recrutement-test-front/main/instructions/sessions-2.png)
-
