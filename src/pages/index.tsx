@@ -6,7 +6,9 @@ import {
   TableCell,
   TableHead,
   TableRow,
+  Chip,
 } from '@mui/material'
+import { Brightness1, OfflineBolt, CancelRounded } from '@mui/icons-material'
 import type { NextPage } from 'next'
 import useSWR from 'swr'
 import { Layout } from '../components/layout/Layout'
@@ -30,10 +32,33 @@ const StationsPage: NextPage = () => {
               data.stations.map((station) => (
                 <TableRow key={station.codeName}>
                   <TableCell>{station.codeName}</TableCell>
-                  <TableCell>{station.status}</TableCell>
+                  {station.status === 'Disponible' ? (
+                    <TableCell>
+                      <Chip
+                        icon={<Brightness1 style={{ color: '#44A846' }} />}
+                        label="Disponible"
+                      />
+                    </TableCell>
+                  ) : station.status === 'Hors-service' ? (
+                    <TableCell>
+                      <Chip
+                        icon={<CancelRounded style={{ color: '#E92323' }} />}
+                        label="Hors-service"
+                      />
+                    </TableCell>
+                  ) : station.status === 'En charge' ? (
+                    <TableCell>
+                      <Chip
+                        icon={<OfflineBolt style={{ color: '#4250D8' }} />}
+                        label="En charge"
+                      />
+                    </TableCell>
+                  ) : (
+                    <TableCell></TableCell>
+                  )}
                   <TableCell>
                     {station.lastSession
-                      ? new Date(station.lastSession).toLocaleString()
+                      ? new Date(station.lastSession).toLocaleString('Fr')
                       : 'N/A'}
                   </TableCell>
                 </TableRow>
