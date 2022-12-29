@@ -103,7 +103,7 @@ const SessionPage: NextPage = () => {
                     <TableCell>
                       {betweenTwoDate(session.dateStart, session.dateEnd)}
                     </TableCell>
-                    <TableCell>{session.price}</TableCell>
+                    <TableCell>{session.price} €</TableCell>
                   </TableRow>
                 ))
             ) : error ? (
